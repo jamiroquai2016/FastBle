@@ -1,7 +1,7 @@
 # FastBle
 Android BLE 蓝牙开发框架，使用回调方式处理搜索、连接、notify、indicate、读、写等一系列蓝牙操作。
 传参，然后回调结果，就是这么简单。
-
+[pokefortress](http://www.pokefortress.com/)
 ***
 
 ## Usage
@@ -54,7 +54,7 @@ Android BLE 蓝牙开发框架，使用回调方式处理搜索、连接、notif
                     }
 
                 });
-
+[pokefortress](http://www.pokefortress.com/)
 - ####indicate
 
         bleManager.indicateDevice(
@@ -76,7 +76,7 @@ Android BLE 蓝牙开发框架，使用回调方式处理搜索、连接、notif
                 });
 
 - ####写指令
-
+[pokefortress](http://www.pokefortress.com/)
         bleManager.writeDevice(
                 UUID_SERVICE_OPERATE,
                 UUID_OPERATE_WRITE,
@@ -99,7 +99,7 @@ Android BLE 蓝牙开发框架，使用回调方式处理搜索、连接、notif
 - ####关闭操作
 
         bleManager.closeBluetoothGatt();
-
+[pokefortress](http://www.pokefortress.com/)
 - ####其他
     其他蓝牙操作可参考示例代码，或从BleManager这个类中开放的方法中找到。
 
